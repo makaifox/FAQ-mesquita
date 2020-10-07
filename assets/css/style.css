@@ -8,6 +8,13 @@ body{
     padding: 50px 0 60px;
 }
 
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+
 .faq-search-wrap .form-group .form-control,
 .faq-search-wrap .form-group .dd-handle {
     border-top-right-radius: .25rem;
@@ -45,11 +52,8 @@ body{
     margin-left: -10px;
 }
 
-@media (min-width: 576px){
-    .mt-sm-60 {
-        margin-top: 60px !important;
-    }
-}
+
+
 .mt-30 {
     margin-top: 30px !important;
 }
@@ -163,4 +167,31 @@ a {
 
 .mr-15 {
     margin-right: 15px !important;
+} 
+
+@media (max-width: 575px){
+    .height-banner{
+        min-height: 15rem;
+    }
+
+    .legal-font {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px){
+
+
+    .height-banner {
+        min-height: 25rem;
+    }
+
+    .mt-sm-60 {
+        margin-top: 60px !important;
+    }
+
+    .legal-font {
+        font-size: 0.9rem;
+    }
+    
 }
