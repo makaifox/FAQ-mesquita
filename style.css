@@ -1,119 +1,7 @@
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none
+body{
+    background:#f5f5f6;
+    margin-top:20px;
 }
-
-body {
-   background-color: #E8E6D1;
-}
-
-header {
-    background-color: #3E276A;
-
-}
-
-.container-header {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-header nav {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-header nav ul li a{
-    color: white;
-}
-
-.menu-dropdown ul{
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px auto;
-    max-width: 90%;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-    height: 100%;
-}
-
-.container h1 {
-    margin: 30px 0px;
-}
-
-.button-faq {
-    width: 80%;
-    margin: 10px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.button-faq .title{
-    border: 1px solid #E0E8D1;
-    width: 100%;
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.button-faq .title:hover {
-    background-color: #3E276A;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.button-faq .content {
-    border: 1px solid #3E276A;
-    width: 100%;
-    display: none;
-    background-color: #E0E8D1;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.active {
-    display: block !important;
-}
-
-footer {
-    height: 50px;
-    background-color: #3E276A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 /*Faq*/
 
 .faq-search-wrap {
@@ -144,7 +32,9 @@ footer {
     height: 18px;
     width: 18px;
 }
-
+.bg-purple {
+    background-color: #3e276a !important;
+}
 
 .hk-row {
     display: -ms-flexbox;
@@ -165,9 +55,15 @@ footer {
 }
 
 .list-group-item.active {
-    background-color:#3E276A;
-    border-color:#3E276A;
+    background-color: #00acf0;
+    border-color: #00acf0;
 }
+
+.txt-white, .link-white:hover, .link-white  {
+    color: #fff;
+}
+
+
 .accordion .card .card-header.activestate {
     border-width: 1px;
 }
@@ -252,7 +148,7 @@ a {
 .accordion.accordion-type-2 .card .card-header > a::after {
     display: inline-block;
     font: normal normal normal 14px/1 'Ionicons';
-    
+    speak: none;
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
@@ -268,4 +164,3 @@ a {
 .mr-15 {
     margin-right: 15px !important;
 }
-
