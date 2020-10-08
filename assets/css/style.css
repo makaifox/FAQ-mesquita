@@ -53,6 +53,15 @@ body{
 }
 
 
+.navbar-brand {
+    font-size: 1.8rem !important;
+    margin: 0 10px 0 10px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    margin: 0 10px 0 10px;
+}
 
 .mt-30 {
     margin-top: 30px !important;
@@ -169,6 +178,118 @@ a {
     margin-right: 15px !important;
 } 
 
+
+/* ----icones sociais ---------*/
+ul.social-network {
+	list-style: none !important;
+	display: inline !important;
+	margin-left:0 !important;
+	padding: 0 !important;
+}
+ul.social-network li {
+	display: inline !important;
+	margin: 0 5px !important;
+}
+
+.social-network a.icoInstagram:hover {
+	background: rgb(131,58,180);
+    background: -moz-linear-gradient(207deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(207deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(207deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1); !important;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998 !important;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff !important;
+}
+.social-network a.icoWhatsapp:hover {
+	background-color:#4AC959 !important;
+}
+.social-network a.icoYoutube:hover {
+	background-color:#FF0000 !important;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7 !important;
+}
+
+.social-network a.icoInstagram {
+	background: rgb(131,58,180);
+    background: -moz-linear-gradient(207deg, rgba(166,138,184,1) 0%, rgba(249,157,157,1) 50%, rgba(246,206,150,1) 100%);
+    background: -webkit-linear-gradient(207deg, rgba(166,138,184,1) 0%, rgba(249,157,157,1) 50%, rgba(246,206,150,1) 100%);
+    background: linear-gradient(207deg, rgba(166,138,184,1) 0%, rgba(249,157,157,1) 50%, rgba(246,206,150,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9f80b4",endColorstr="#ffe0b5",GradientType=1); !important;
+}
+.social-network a.icoFacebook {
+    
+	background-color:#94a3c3 !important;
+}
+.social-network a.icoTwitter {
+	background-color:#b5ecff !important;
+}
+.social-network a.icoWhatsapp {
+	background-color:#92c598 !important;
+}
+.social-network a.icoYoutube {
+	background-color:#ffc0c0 !important;
+}
+.social-network a.icoLinkedin {
+	background-color:#8aabba !important;
+}
+
+
+/*.social-network a.icosInstagram:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoWhatsapp:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff !important;
+}*/
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD !important;
+}
+
+.social-circle li a {
+	display:inline-block !important;
+	position:relative !important;
+	margin:0 auto 0 auto !important;
+	-moz-border-radius:50% !important;
+	-webkit-border-radius:50% !important;
+	border-radius:50% !important;
+	text-align:center !important;
+	width: 40px !important;
+	height: 40px !important;
+	font-size:20px !important;
+	background-color: #D3D3D3 !important;
+}
+.social-circle li i {
+	margin:0 !important;
+	line-height:40px !important;
+	text-align: center !important;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg) !important;
+	-webkit-transform: rotate(360deg) !important;
+	-ms--transform: rotate(360deg) !important;
+	transform: rotate(360deg) !important;
+	-webkit-transition: all 0.2s !important;
+	-moz-transition: all 0.2s !important;
+	-o-transition: all 0.2s !important;
+	-ms-transition: all 0.2s !important;
+	transition: all 0.2s !important;
+}
+.social-circle i {
+	color: #fff !important;
+	-webkit-transition: all 0.8s !important;
+	-moz-transition: all 0.8s !important;
+	-o-transition: all 0.8s !important;
+	-ms-transition: all 0.8s !important;
+	transition: all 0.8s !important;
+}
+.btn-whatsapp {
+    background-color: #cb2027 !important;
+    border-color: rgba(0,0,0,0.2);
+}
+
 @media (max-width: 575px){
     .height-banner{
         min-height: 15rem;
@@ -176,6 +297,17 @@ a {
 
     .legal-font {
         font-size: 0.7rem;
+    }
+
+    .social-circle li a {
+        width: 30px !important;
+        height: 30px !important;
+        margin-bottom: 20px !important;
+        
+    }
+    .social-circle li i {
+        line-height:30px !important;
+        
     }
 }
 
