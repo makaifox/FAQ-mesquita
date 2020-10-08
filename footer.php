@@ -20,17 +20,17 @@
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Menu Principal</h6>
-                <p>
-                <a href="#!" class="link-white">Inicio</a>
+                <p class="border-bottom-white ">
+                <a href="#!" class="link-white d-flex justify-content-between">Inicio <i class="fa fa-angle-right"></i></a>
                 </p>
-                <p>
-                <a href="#!" class="link-white">Menu1</a>
+                <p class="border-bottom-white">
+                <a href="#!" class="link-white d-flex justify-content-between">Menu1 <i class="fa fa-angle-right"></i></a>
                 </p>
-                <p>
-                <a href="#!" class="link-white">menu2</a>
+                <p class="border-bottom-white">
+                <a href="#!" class="link-white d-flex justify-content-between">menu2 <i class="fa fa-angle-right"></i></a>
                 </p>
-                <p>
-                <a href="#!" class="link-white">voltar a pmm</a>
+                <p >
+                <a href="#!" class="link-white d-flex justify-content-between">Voltar a pmm <i class="fa fa-angle-right"></i></a>
                 </p>
             </div>
             <!-- divisória -->
@@ -90,28 +90,15 @@
     
             <!-- Social buttons -->
                 <div class="text-center text-md-right">
-                    <ul class=" list-inline">
-                        <li class="list-inline-item">
-                            <a class="btn btn-social-icon btn-twitter">
-                                <span class="fa fa-twitter"></span>
-                              </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fab fa-google-plus-g"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                            <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <ul class="social-network social-circle list-inline">
+                        <li class="list-inline-item"><a href="#" class="icoFacebook" title="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="icoWhatsapp" title="Whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+
+                      </ul>
                     
                 </div>
     

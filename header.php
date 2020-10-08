@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="assets/css/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-social.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.2.0/css/ionicons.min.css" integrity="sha256-F3Xeb7IIFr1QsWD113kV2JXaEbjhsfpgrKkwZFGIA4E=" crossorigin="anonymous" />
     <title>Prefeitura responde</title>
     
@@ -41,13 +43,12 @@
             
 <!----------------------------------------menu principal ---------------------------------------->        
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg bg-dark  ">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark ">
     <a class="navbar-brand link-white" href="#">#FAQ</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           
@@ -59,11 +60,26 @@
           <a class="nav-link link-white" href="#">Menu2</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link link-white" href="#">voltar ao site PMM</a>
+            <a class="nav-link link-white" href="#">Voltar ao site PMM</a>
           </li>
       </ul>
+
+      <div class="text-center text-md-right">
+        <ul class="social-network social-circle list-inline">
+            <li class="list-inline-item"><a href="#" class="icoFacebook" title="facebook"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="icoWhatsapp" title="Whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+
+          </ul>
+        
+    </div>
       
     </div>
   </nav>
-
+  
+            
 </header>
+

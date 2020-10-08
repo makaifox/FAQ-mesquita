@@ -238,11 +238,6 @@ ul.social-network li {
 	background-color:#8aabba !important;
 }
 
-
-/*.social-network a.icosInstagram:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoWhatsapp:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff !important;
-}*/
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD !important;
 }
@@ -288,6 +283,12 @@ a.socialIcon:hover, .socialHoverClass {
 .btn-whatsapp {
     background-color: #cb2027 !important;
     border-color: rgba(0,0,0,0.2);
+}
+
+
+.border-bottom-white {
+    padding:0 0 10px 0;
+    border-bottom: solid 2px #fff; 
 }
 
 @media (max-width: 575px){
